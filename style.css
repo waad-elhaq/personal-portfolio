@@ -1,0 +1,127 @@
+body{
+    margin: 0;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+}
+
+.sidebar{
+    background-color: rgb(229, 234, 239);
+    width: 30vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: 'sansation', sans-serif;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+.sidebar img{
+    width: 50%;
+    border-radius: 50%;
+}
+
+.id{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: initial;
+    padding-top: 7vh;
+}
+
+#whoim{
+    color: rgb(0, 162, 255);
+    font-size: 7pt;
+    border-top: 1px solid whitesmoke;
+    border-bottom: 1px solid whitesmoke;
+    padding: 10px 0 10px 0;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    padding-top: 8vh;
+}
+
+nav a{
+    text-decoration: none;
+    color: gray;
+    font-size: 9pt;
+    font-weight: 350;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    color: rgb(0, 162, 255);
+}
+
+#job{
+    font-family: 'dm serif text', sans-serif;
+    font-size: 18pt;
+    font-weight: 600;
+    position: relative;
+    left: 5vw;
+    top: 7vh;
+}
+
+#help{
+    padding-top: 20px;
+    position: relative;
+    left: 5vw;
+    font-family: 'sansation', sans-serif;
+    font-weight: 200;
+}
+
+.content .img1{
+    box-shadow: 0 0 0;
+    width: 50%;
+    position: relative;
+    left: 40%;
+    border-radius: 50%;
+}
+
+.content{
+    margin-left: 35vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.content .img2{
+    width: 80%;
+    margin-top: 4rem;
+    position: relative;
+    left: 1%;
+    border-radius: 20% 0 20% 0;
+}
+
+.content .img3{
+    width: 50%;
+    margin-top: 4rem;
+    position: relative;
+    left: 40%;
+    border-radius: 20% 0 20% 0;
+}
+
+.content .img4{
+    width: 50%;
+    margin-top: 3rem;
+    position: relative;
+    left: 1%;
+    border-radius: 20% 0 20% 0;
+}
+
+.content img{
+    box-shadow: 0 0 1rem gray;
+}
+
+.content video{
+    width: 100%;
+    margin-top: 4rem;
+}
